@@ -1,4 +1,3 @@
-
 const apiKey = "1156cdfb54b177fb904e9ff97e4dd89c";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
@@ -22,6 +21,11 @@ clearHistoryBtn.textContent = "🗑️ Clear History";
 clearHistoryBtn.classList.add("clear-history-btn");
 clearHistoryBtn.addEventListener("click", clearSearchHistory);
 document.querySelector(".search-history").appendChild(clearHistoryBtn);
+
+// Create and add footer
+const footer = document.createElement('footer');
+footer.innerHTML = 'Created with ❤️ by Brenda Wairimu';
+document.body.appendChild(footer);
 
 // Event Listeners
 searchForm.addEventListener("submit", handleFormSubmit);

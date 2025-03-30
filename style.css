@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url('https://img.freepik.com/premium-photo/low-angle-view-cloudy-sky-trees_1048944-4800004.jpg?w=740');
+    background-image: url('https://i.pinimg.com/736x/aa/c4/66/aac466016828b80d8b2aaf401e21cadf.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
 
 [data-theme="dark"] body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                      url('https://img.freepik.com/premium-photo/low-angle-view-cloudy-sky-trees_1048944-4800004.jpg?w=740');
+                      url('https://i.pinimg.com/736x/aa/c4/66/aac466016828b80d8b2aaf401e21cadf.jpg');
 }
 
 [data-theme="dark"] .card {
@@ -38,7 +38,6 @@ body {
     color: #fff;
 }
 
-/* Rest of your existing CSS styles */
 .search {
     width: 100%;
     display: flex;
@@ -183,4 +182,22 @@ body {
 [data-theme="dark"] .clear-history-btn {
     background: #333;
     color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+[data-theme="dark"] footer {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
 }
