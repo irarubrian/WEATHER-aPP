@@ -24,7 +24,7 @@ document.querySelector(".search-history").appendChild(clearHistoryBtn);
 
 // Create and add footer
 const footer = document.createElement('footer');
-footer.innerHTML = 'Created with ❤️ by Brenda Wairimu';
+footer.innerHTML = 'bryan iraru juniour developer';
 document.body.appendChild(footer);
 
 // Event Listeners
